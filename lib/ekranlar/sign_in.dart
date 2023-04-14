@@ -37,10 +37,10 @@ class sign_in extends StatelessWidget {
                     children: [
                       Expanded(
                           child:
-                          Container_pro(_tfkullanici_adi, 'ADINIZ', Icons.paid_outlined)),
+                          Container_pro(_tfkullanici_adi, 'ADINIZ', Icons.text_decrease)),
                       Expanded(
                           child:
-                          Container_pro(_tfkullanici_soyad, 'SOYADINIZ', Icons.accessible_rounded)),
+                          Container_pro(_tfkullanici_soyad, 'SOYADINIZ', Icons.text_decrease)),
                     ],
                   ),
                   Column(
